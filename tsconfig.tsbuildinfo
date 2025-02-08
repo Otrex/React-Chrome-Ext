@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/tenai.ts","./src/vite-env.d.ts","./src/components/popup.tsx","./src/components/suggestionpannel.tsx","./src/config/config.ts","./src/config/formats.ts","./src/types/index.ts","./src/utils/validateenv.ts"],"version":"5.7.3"}
