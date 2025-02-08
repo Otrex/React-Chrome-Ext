@@ -2,13 +2,12 @@
 // Required packages to install:
 // npm install express cors helmet morgan sqlite3 sequelize multer
 
-const express = require('express');
-const cors = require('cors');
-const helmet = require('helmet');
-const morgan = require('morgan');
-const multer = require('multer');
-const { Sequelize } = require('sequelize');
-const path = require('path');
+import express from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import morgan from 'morgan';
+import multer from 'multer';
+import { Sequelize } from 'sequelize';
 
 // Initialize express app
 const app = express();
@@ -47,6 +46,7 @@ sequelize.authenticate()
 app.get('/api/items', async (req, res) => {
   try {
     // Example response
+    
     res.json({ message: 'Get all items' });
   } catch (error) {
     res.status(500).json({ error: error.message });

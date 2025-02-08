@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "server:dev": "node backend/server.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -14,6 +15,7 @@
     "@langchain/core": "^0.3.39",
     "@langchain/langgraph": "^0.2.45",
     "@langchain/openai": "^0.4.3",
+    "@types/node": "^22.13.1",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
